@@ -1,0 +1,55 @@
+table#scoreboard {
+    min-width: 1024px;
+    border-collapse: collapse;
+    border: 3px solid #e1e1e1;
+    border-top: 0px;
+    margin: 10px auto 10px auto;
+    font-family: verdana, segoe ui, microsoft yahei;
+    font-size: 13px;
+    caption-side: top;
+}
+
+table#scoreboard caption {
+    border-radius: 5px 5px 0 0;
+    background: #e1e1e1;
+    font-size: 14px;
+    text-align: left;
+    padding: 4px 6px;
+}
+
+table#scoreboard tr:nth-of-type(even) {
+    background-color: #f8f8f8;
+}
+
+table#scoreboard th {
+    /*background-color: #eee;*/
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    height: 2em;
+}
+
+table#scoreboard td {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    padding: 2px 0;
+    min-width: 40px;
+    max-width: 200px;
+    height: 39px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+#date, table#scoreboard p {
+    text-align: center;
+    font-family: segoe ui, microsoft yahei;
+}
+
+table#scoreboard * .accepted {
+    color: #0a0;
+    font-weight: bold;
+}
+
+table#scoreboard * .failed {
+    color: red;
+    font-weight: bold;
+}
